@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My info Page</title>
+    <style>
+        body {
+            background-color: #F99417;
+        }
+        
+        header {
+            background-color: #4D4C7D;
+            color: #F5F5F5;
+            text-align: center;
+            padding: 0.5em;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .cv-section {
+            max-width: 700px;
+            text-align: left;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #1a1a1a;
+        }
+        
+        section {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        
+        table {
+            border-spacing: 20px;
+        }
+        
+        th {
+            text-align: center;
+            font-size: 35px;
+            color: #4D4C7D;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        
+        th {
+            padding: 15px;
+        }
+        
+        td {
+            color: white;
+            font-size: 20px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            padding: 10px 20px;
+            border: 1px dashed #363062;
+            border-radius: 10px;
+        }
+        
+        li {
+            list-style-position: outside;
+        }
+        
+        .portfolio-item {
+            text-align: center;
+            width: 300px;
+            background-color: #363062;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+            transition: transform 0.3s ease-in-out;
+            margin-bottom: 10px;
+        }
+        
+        .portfolio-item:hover {
+            transform: scale(1.1);
+        }
+        
+        .portfolio-item img {
+            max-width: 50%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        
+        h2 {
+            color: #F99417;
+        }
+        
+        h1 {
+            color: #F5F5F5;
+        }
+        
+        p {
+            color: #ccc;
+        }
+        
+        footer {
+            background-color: #4D4C7D;
+            padding: 10px;
+            text-align: center;
+            position: relative;
+            bottom: 0;
+        }
+        
+        footer p {
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Hisham Mohammed</h1>
+        <p>Passionate Web Developer & Designer</p>
+    </header>
+
+    <main class="main">
+
+        <div class="cv-section">
+            <table>
+                <tr>
+                    <th>Education</th>
+                    <th>Skills</th>
+                </tr>
+                <tr>
+                    <td>Your University, Degree in Something Awesome, Graduation Year</td>
+                    <td>HTML, CSS, JavaScript, Web Design, UX/UI, Photoshop, Illustrator</td>
+                </tr>
+                <tr>
+                    <th colspan="2"> Experience </th>
+
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <ul>
+                            <li>
+                                Web Developer at ABC Company - 2 years
+                            </li>
+                            <li>
+                                Graphic Designer at XYZ Agency - 1 year
+                            </li>
+                        </ul>
+
+                    </td>
+
+                </tr>
+            </table>
+        </div>
+    </main>
+
+    <section>
+        <div class="portfolio-item">
+            <img src="https://picsum.photos/400/300?random=1" alt="Project 1">
+            <h2>Project 1</h2>
+            <p>Description of Project 1.</p>
+        </div>
+
+        <div class="portfolio-item">
+            <img src="https://picsum.photos/400/300?random=2" alt="Project 2">
+            <h2>Project 2</h2>
+            <p>Description of Project 2.</p>
+        </div>
+
+        <div class="portfolio-item">
+            <img src="https://picsum.photos/400/300?random=3" alt="Project 3">
+            <h2>Project 3</h2>
+            <p>Description of Project 3.</p>
+        </div>
+
+        <div class="portfolio-item">
+            <img src="https://picsum.photos/400/300?random=4" alt="Project 4">
+            <h2>Project 4</h2>
+            <p>Description of Project 4.</p>
+        </div>
+
+        <!-- Add more portfolio items as needed -->
+
+    </section>
+    <footer class="footer">
+        <p>&copy; 2023 Hisham Page. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
